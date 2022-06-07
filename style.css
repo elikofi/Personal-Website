@@ -39,7 +39,7 @@ body {
 /* the styling of the main section starts from this side.*/
 .main {
     grid-area: main;
-    background: url(wp.jpg) no-repeat center center fixed; 
+    background: url(Images/wp.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,7 +53,7 @@ body {
     margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(./memoji.png);
+    background-image: url(Images/./memoji.png);
     height: 200px;
     background-size: 200px;
     width: 200px;
@@ -61,7 +61,7 @@ body {
     background-color: white;
 }
 .avatar-box:hover {
-    background-image: url(./memoji1.png);
+    background-image: url(Images/./memoji1.png);
     transition: 0.25s;
 }
 .main-details {
