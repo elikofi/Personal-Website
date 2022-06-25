@@ -1,5 +1,6 @@
 body {
     height: 100%;
+    scroll-behavior: smooth;
 }
 .container {
     display: grid;
@@ -156,17 +157,19 @@ ul li a:hover:before {
 }
   
 ul li:nth-child(1) a:before{
-    background: #3b5999;
+    background: black;
 }
 ul li:nth-child(2) a:before{
-    background: #55acee;
+    background: #3b5999;
+    
 }
 ul li:nth-child(3) a:before {
-    background: #0077b5;
+    background: #55acee;
+    
 }
   
 ul li:nth-child(4) a:before {
-    background: linear-gradient(rgb(255, 0, 0), rgb(255, 196, 0));
+    background: #0077b5;
 }
 /* The styling for the footer section start from this side.*/
 .footer {
