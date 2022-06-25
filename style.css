@@ -155,22 +155,21 @@ ul li a:before {
 ul li a:hover:before {
     top: 0;
 }
-  
+/*background colors for the links */
 ul li:nth-child(1) a:before{
     background: black;
 }
 ul li:nth-child(2) a:before{
-    background: #3b5999;
-    
+    background: #0077b5;
 }
 ul li:nth-child(3) a:before {
     background: #55acee;
-    
 }
   
 ul li:nth-child(4) a:before {
-    background: #0077b5;
+    background: #3b5999;
 }
+
 /* The styling for the footer section start from this side.*/
 .footer {
     grid-area: footer;
